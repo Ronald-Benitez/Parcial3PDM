@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcial3PDM">
         <activity
+            android:name=".activities.addCombo"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
